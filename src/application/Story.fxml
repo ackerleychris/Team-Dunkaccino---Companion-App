@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.StoryController">
+   <children>
+      <Pane fx:id="BG" prefHeight="720.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../pics/hades_cover_banner.png" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="StoryText" editable="false" layoutX="14.0" layoutY="139.0" opacity="0.74" prefHeight="456.0" prefWidth="642.0" text="Enter the life of Zagreus, the immortal prince of the Underworld and son of Hades.  Ignored and maltreated by his father, Zagreus will attempt to break free of his father's clutches and escape to Mount Olympus.  He is not alone on this journey with the help of Olympians and Greek idols alike, do you have what it takes to help Zagreus befrend familiar faces such as Cerberus in the story-driven rouge-like adventure that is Hades?" wrapText="true">
+               <font>
+                  <Font name="Bell MT" size="26.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="BackButton" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" onAction="#BackPressed" prefHeight="50.0" prefWidth="90.0" text="BACK">
+               <font>
+                  <Font name="Bell MT" size="20.0" />
+               </font></Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
