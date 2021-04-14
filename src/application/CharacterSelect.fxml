@@ -11,7 +11,7 @@
          <children>
             <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../pics/hades_cover_banner3.png" />
+                  <Image url="pics/hades_cover_banner3.png" />
                </image>
             </ImageView>
          </children>

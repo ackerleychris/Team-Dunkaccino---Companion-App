@@ -29,12 +29,36 @@ public class MainController {
     private Button StoryButton;
 	
     @FXML
+    private Button ZonesButton;
+
+    @FXML
+    private Button CharacterButton;
+
+    @FXML
+    private Button ItemsButton;
+    
+    @FXML
     void StoryButtonPressed(ActionEvent event) {
     	Main.set_pane(1);
     	
     }
 	
+    @FXML
+    void CharacterPressed(ActionEvent event) {
+    	//Main.set_pane(X) replace X when this is added to the stack 
+    }
 
+
+    @FXML
+    void ItemsPressed(ActionEvent event) {
+    	//Main.set_pane(X) replace X when this is added to the stack 
+    }
+
+
+    @FXML
+    void ZonesPressed(ActionEvent event) {
+    	//Main.set_pane(X) replace X when this is added to the stack 
+    }
 
 
 
