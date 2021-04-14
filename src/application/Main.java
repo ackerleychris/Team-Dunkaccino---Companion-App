@@ -31,6 +31,8 @@ public class Main extends Application {
 			root = FXMLLoader.load(getClass().getResource("EmptyPane.fxml")); //It's a "Permanent background", so keep it blank so it doesn't have overlap issues!
 			Scenes.add(FXMLLoader.load(getClass().getResource("Main.fxml"))); //Main is 0
 			Scenes.add(FXMLLoader.load(getClass().getResource("Story.fxml")));	//Story is 1
+			Scenes.add(FXMLLoader.load(getClass().getResource("ZoneSelect.fxml"))); //ZoneSelect is 2
+			Scenes.add(FXMLLoader.load(getClass().getResource("HouseofHades.fxml"))); //HouseofHades is 3
 			
 			root.getChildren().add(Scenes.get(0)); //Sets the Main Menu from Main.fxml
 			
