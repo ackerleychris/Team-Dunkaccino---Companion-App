@@ -38,4 +38,40 @@ public class Items
 	{
 		return this.name;
 	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public String getImageLocation()
+	{
+		return this.imageLocation;
+	}
+	
+	public void setImageLocation(String imageLocation)
+	{
+		this.imageLocation = imageLocation;
+	}
+	
+	public String getDescription()
+	{
+		return this.description;
+	}
+	
+	public void setDescription(String description)
+	{
+		this.description = description;
+	}
+	
+	public String getType()
+	{
+		return this.type;
+	}
+	
+	public void setType(String type)
+	{
+		this.type = type;
+	}
+	
 }
