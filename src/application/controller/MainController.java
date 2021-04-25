@@ -17,7 +17,7 @@ import javafx.scene.control.Button;
  * 
  * 
  * 
- * @author Zachary Bowman & Christopher Ackerley
+ * @author Zachary Bowman & Christopher Ackerley & Andrew Mares
  *
  */
 public class MainController {
@@ -45,7 +45,7 @@ public class MainController {
 	
     @FXML
     void CharacterPressed(ActionEvent event) {
-    	//Main.set_pane(X) replace X when this is added to the stack 
+    	Main.set_pane(4);
     }
 
 
