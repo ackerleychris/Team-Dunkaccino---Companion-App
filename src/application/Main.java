@@ -34,6 +34,10 @@ public class Main extends Application {
 			Scenes.add(FXMLLoader.load(getClass().getResource("ZoneSelect.fxml"))); //ZoneSelect is 2
 			Scenes.add(FXMLLoader.load(getClass().getResource("HouseofHades.fxml"))); //HouseofHades is 3
 			Scenes.add(FXMLLoader.load(getClass().getResource("CharacterSelect.fxml"))); //characterSelect is 4
+			Scenes.add(FXMLLoader.load(getClass().getResource("Tartarus.fxml"))); //Tartarus is 5
+			Scenes.add(FXMLLoader.load(getClass().getResource("Asphodel.fxml"))); //Asphodel is 6			
+			Scenes.add(FXMLLoader.load(getClass().getResource("Elysium.fxml"))); //Elysium is 7
+			Scenes.add(FXMLLoader.load(getClass().getResource("Greece.fxml"))); //Greece is 8
 			
 			root.getChildren().add(Scenes.get(0)); //Sets the Main Menu from Main.fxml
 			
