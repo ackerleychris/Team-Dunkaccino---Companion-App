@@ -29,33 +29,7 @@ public class Items
 		
 	}
 	
-	public String getImageLocation() {
-		return imageLocation;
-	}
 
-	public void setImageLocation(String imageLocation) {
-		this.imageLocation = imageLocation;
-	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	/**
 	 * String name getter. Returns the name variable.
