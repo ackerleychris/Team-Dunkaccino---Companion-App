@@ -17,16 +17,27 @@ import java.util.*;
  * 		ADD YOUR NAME TO THE JAVADOC AUTHOR
  * 
  */
+
+/**
+ * @author David Kent
+ *
+ */
+
 public class Items
 {
 	private String name;
 	private String imageLocation;
 	private String description;
 	private String type;
+	private ArrayList<Items> Item;
 	
-	public Items(ArrayList<String> newItem)
+	public Items(String name, String imageLocation, String description, String type)
 	{
-		
+		this.name = name;
+		this.imageLocation = imageLocation;
+		this.description = description;
+		this.type = type;
+		Item = new ArrayList<Items>();
 	}
 	
 

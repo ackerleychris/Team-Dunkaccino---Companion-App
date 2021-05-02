@@ -26,9 +26,16 @@ public class Characters
 	private String imageLocation;
 	private String description;
 	private String type;
+	private ArrayList<Characters> Character;
 	
-	public Characters(ArrayList<String> newCharacter)
+	public Characters(String name, String imageLocation, String description, String type)
 	{
+		this.name = name;
+		this.imageLocation = imageLocation;
+		this.description = description;
+		this.type = type;
+		Character = new ArrayList<Characters>();
+		
 		
 	}
 	

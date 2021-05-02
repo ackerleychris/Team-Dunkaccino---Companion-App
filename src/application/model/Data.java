@@ -18,17 +18,17 @@ import java.util.*;
 
 public class Data
 {
-	private ArrayList<String> items;
+	private ArrayList<Items> items;
 	private ArrayList<String> characters;
 	private String itemCSVFileLocation;
 	private String characterCSVFileLocation;
 	
-	public void populateItems(String itemFile)
+	public void populateItems(String itemCSVFileLocation)
 	{
 		
 	}
 	
-	public void populateCharacters(String charFile)
+	public void populateCharacters(String characterCSVFileLocation)
 	{
 		
 	}
