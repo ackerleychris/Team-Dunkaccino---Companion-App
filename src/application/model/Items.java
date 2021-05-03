@@ -19,7 +19,7 @@ import java.util.*;
  */
 
 /**
- * @author David Kent
+ * @author David Kent & Christopher Ackerley
  *
  */
 
@@ -52,36 +52,75 @@ public class Items
 		return this.name;
 	}
 	
+	/**
+	 * String name setter.
+	 * @author David Kent
+	 * @return nothing
+	 */
+	
 	public void setName(String name)
 	{
 		this.name = name;
 	}
+	
+	/**
+	 * String image location getter.
+	 * @author David Kent
+	 * @return location of image as string
+	 */
 	
 	public String getImageLocation()
 	{
 		return this.imageLocation;
 	}
 	
+	/**
+	 * String image location setter.
+	 * @author David Kent
+	 * @return nothing
+	 */
 	public void setImageLocation(String imageLocation)
 	{
 		this.imageLocation = imageLocation;
 	}
+	
+	/**
+	 * String description getter.
+	 * @author David Kent
+	 * @return description as string
+	 */
 	
 	public String getDescription()
 	{
 		return this.description;
 	}
 	
+	/**
+	 * String description setter.
+	 * @author David Kent
+	 * @return nothing
+	 */
 	public void setDescription(String description)
 	{
 		this.description = description;
 	}
+	
+	/**
+	 * String typer getter.
+	 * @author David Kent
+	 * @return type as string
+	 */
 	
 	public String getType()
 	{
 		return this.type;
 	}
 	
+	/**
+	 * String type setter
+	 * @author David Kent
+	 * @return nothing
+	 */
 	public void setType(String type)
 	{
 		this.type = type;

@@ -17,32 +17,32 @@
                </image>
             </ImageView>
           <Button fx:id="BackButton" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" onAction="#BackPressed" prefHeight="50.0" prefWidth="90.0" text="BACK" />
-          <Button fx:id="button1" layoutX="120.0" layoutY="109.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="STYGIAN BLADE" textFill="#ef2525">
+          <Button fx:id="SBButton" layoutX="120.0" layoutY="109.0" mnemonicParsing="false" onAction="#SBPressed" prefHeight="150.0" prefWidth="400.0" text="STYGIAN BLADE" textFill="#ef2525">
           <font>
            		<Font name="Bell MT Bold" size="25.0" />
           </font>
       	  </Button>
-          <Button fx:id="button2" layoutX="763.0" layoutY="109.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="ETERNAL SPEAR" textFill="#ef2525">
+          <Button fx:id="ESButton" layoutX="763.0" layoutY="109.0" mnemonicParsing="false" onAction="#ESPressed" prefHeight="150.0" prefWidth="400.0" text="ETERNAL SPEAR" textFill="#ef2525">
                     <font>
            		<Font name="Bell MT Bold" size="25.0" />
           </font>
       	  </Button>
-          <Button fx:id="button3" layoutX="120.0" layoutY="319.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="SHIELD OF CHAOS" textFill="#ef2525">
+          <Button fx:id="SOCButton" layoutX="120.0" layoutY="319.0" mnemonicParsing="false" onAction="#SOCPressed" prefHeight="150.0" prefWidth="400.0" text="SHIELD OF CHAOS" textFill="#ef2525">
                     <font>
            		<Font name="Bell MT Bold" size="25.0" />
           </font>
       	  </Button>
-          <Button fx:id="button4" layoutX="763.0" layoutY="319.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="HEART-SEEKING BOW" textFill="#ef2525">
+          <Button fx:id="HSBButton" layoutX="763.0" layoutY="319.0" mnemonicParsing="false" onAction="#HSBPressed" prefHeight="150.0" prefWidth="400.0" text="HEART-SEEKING BOW" textFill="#ef2525">
                     <font>
            		<Font name="Bell MT Bold" size="25.0" />
           </font>
       	  </Button>
-          <Button fx:id="button5" layoutX="120.0" layoutY="523.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="TWIN FISTS OF MALPHON" textFill="#ef2525">
+          <Button fx:id="TFButton" layoutX="120.0" layoutY="523.0" mnemonicParsing="false" onAction="#TFPressed" prefHeight="150.0" prefWidth="400.0" text="TWIN FISTS OF MALPHON" textFill="#ef2525">
                     <font>
            		<Font name="Bell MT Bold" size="25.0" />
           </font>
       	  </Button>
-          <Button fx:id="button6" layoutX="763.0" layoutY="523.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="ADAMANT RAIL" textFill="#ef2525">
+          <Button fx:id="ARButton" layoutX="763.0" layoutY="523.0" mnemonicParsing="false" onAction="#ARPressed" prefHeight="150.0" prefWidth="400.0" text="ADAMANT RAIL" textFill="#ef2525">
                     <font>
            		<Font name="Bell MT Bold" size="25.0" />
           </font>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ChaosController">
+   <children>
+      <Pane fx:id="BG" prefHeight="720.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true">
+               <image>
+                  <Image url="pics/shieldofchaos.jpg" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="ChaosText" editable="false" layoutX="14.0" layoutY="139.0" opacity="0.5" prefHeight="456.0" prefWidth="642.0" text="The Shield of Chaos is unlocked with 3 chthonic keys. The main attack is a swing that hits in an arc and knocks enemies back. Holding the attack button allows the player to block damage from the front, while charging the bull rush. releasing this performs a shield bash, damaging enemies who are hit by it. The special throws the shield, which causes it to bounce between enemies and objects before it returns." wrapText="true">
+               <font>
+                  <Font name="Bell MT" size="26.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="BackButton" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" onAction="#BackPressed" prefHeight="50.0" prefWidth="90.0" text="BACK">
+               <font>
+                  <Font name="Bell MT" size="20.0" />
+               </font></Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -21,7 +21,7 @@ public class Main extends Application {
 	
 /**
  * 
- * @author Zachary Bowman & Christopher Ackerley & Andrew Mares
+ * @author Zachary Bowman & Christopher Ackerley & Andrew Mares & David Kent
  * 
  */
 	@Override
@@ -39,6 +39,12 @@ public class Main extends Application {
 			Scenes.add(FXMLLoader.load(getClass().getResource("Elysium.fxml"))); //Elysium is 7
 			Scenes.add(FXMLLoader.load(getClass().getResource("Greece.fxml"))); //Greece is 8
 			Scenes.add(FXMLLoader.load(getClass().getResource("Weapons.fxml"))); //Weapons is 9
+			Scenes.add(FXMLLoader.load(getClass().getResource("StygianBlade.fxml"))); //stygian blade is 10
+			Scenes.add(FXMLLoader.load(getClass().getResource("EternalSpear.fxml"))); //eternal spear is 11
+			Scenes.add(FXMLLoader.load(getClass().getResource("ShieldOfChaos.fxml"))); //shield of chaos is 12
+			Scenes.add(FXMLLoader.load(getClass().getResource("HeartSeekingBow.fxml"))); //heart seeking bow is 13
+			Scenes.add(FXMLLoader.load(getClass().getResource("TwinFists.fxml"))); //Twin fists is 14
+			Scenes.add(FXMLLoader.load(getClass().getResource("AdamantRail.fxml"))); //adamant rail is 14
 			
 			root.getChildren().add(Scenes.get(0)); //Sets the Main Menu from Main.fxml
 			
