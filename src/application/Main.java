@@ -38,6 +38,7 @@ public class Main extends Application {
 			Scenes.add(FXMLLoader.load(getClass().getResource("Asphodel.fxml"))); //Asphodel is 6			
 			Scenes.add(FXMLLoader.load(getClass().getResource("Elysium.fxml"))); //Elysium is 7
 			Scenes.add(FXMLLoader.load(getClass().getResource("Greece.fxml"))); //Greece is 8
+			Scenes.add(FXMLLoader.load(getClass().getResource("Weapons.fxml"))); //Weapons is 9
 			
 			root.getChildren().add(Scenes.get(0)); //Sets the Main Menu from Main.fxml
 			

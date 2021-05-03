@@ -17,7 +17,7 @@ import javafx.scene.control.Button;
  * 
  * 
  * 
- * @author Zachary Bowman & Christopher Ackerley & Andrew Mares
+ * @author Zachary Bowman & Christopher Ackerley & Andrew Mares & David Kent
  *
  */
 public class MainController {
@@ -51,6 +51,12 @@ public class MainController {
 
     @FXML
     void ItemsPressed(ActionEvent event) {
+    	//Main.set_pane(X) replace X when this is added to the stack 
+    }
+    
+    @FXML
+    void WeaponsPressed(ActionEvent event) {
+    	Main.set_pane(9);
     	//Main.set_pane(X) replace X when this is added to the stack 
     }
 

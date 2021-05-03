@@ -33,7 +33,7 @@
             <Font name="Bell MT Bold" size="41.0" />
          </font>
       </Button>
-      <Button layoutX="470.0" layoutY="348.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="378.0" text="Button" textFill="#eb2525">
+      <Button layoutX="470.0" layoutY="348.0" mnemonicParsing="false" prefHeight="95.0" prefWidth="378.0" text="WEAPONS" onAction="#WeaponsPressed" textFill="#eb2525">
          <font>
             <Font name="Bell MT Bold" size="40.0" />
          </font>
