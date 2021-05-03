@@ -5,6 +5,13 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import application.Main;
 
+
+/**
+ * @author Zachary Bowman raq506
+ *
+ */
+
+
 public class TartarusController {
 
     @FXML
