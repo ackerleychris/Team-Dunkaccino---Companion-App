@@ -22,8 +22,6 @@ public class ZoneSelectController {
     @FXML
     private Button AsphodelButton;   
 
-    @FXML
-    private Button GatesButton;
     
     @FXML
     private Button GreeceButton;    
@@ -54,10 +52,6 @@ public class ZoneSelectController {
     	Main.set_pane(6);
     } 
     
-    @FXML
-    void GatesPressed(ActionEvent event) {
-
-    }    
 
     @FXML
     void GreecePressed(ActionEvent event) {
