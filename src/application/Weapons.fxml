@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="application.controller.ZoneSelectController">
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="application.controller.WeaponsController">
    <children>
       <AnchorPane prefHeight="720.0" prefWidth="1280.0">
          <children>
@@ -17,12 +17,36 @@
                </image>
             </ImageView>
           <Button fx:id="BackButton" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" onAction="#BackPressed" prefHeight="50.0" prefWidth="90.0" text="BACK" />
-          <Button fx:id="button1" layoutX="120.0" layoutY="109.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="button1" textFill="#ef2525"/>
-          <Button fx:id="button2" layoutX="763.0" layoutY="109.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="button2" textFill="#ef2525"/>
-          <Button fx:id="button3" layoutX="120.0" layoutY="319.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="button3" textFill="#ef2525"/>
-          <Button fx:id="button4" layoutX="763.0" layoutY="319.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="button4" textFill="#ef2525"/>
-          <Button fx:id="button5" layoutX="120.0" layoutY="523.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="button5" textFill="#ef2525"/>
-          <Button fx:id="button6" layoutX="763.0" layoutY="523.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="button6" textFill="#ef2525"/>
+          <Button fx:id="button1" layoutX="120.0" layoutY="109.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="STYGIAN BLADE" textFill="#ef2525">
+          <font>
+           		<Font name="Bell MT Bold" size="25.0" />
+          </font>
+      	  </Button>
+          <Button fx:id="button2" layoutX="763.0" layoutY="109.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="ETERNAL SPEAR" textFill="#ef2525">
+                    <font>
+           		<Font name="Bell MT Bold" size="25.0" />
+          </font>
+      	  </Button>
+          <Button fx:id="button3" layoutX="120.0" layoutY="319.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="SHIELD OF CHAOS" textFill="#ef2525">
+                    <font>
+           		<Font name="Bell MT Bold" size="25.0" />
+          </font>
+      	  </Button>
+          <Button fx:id="button4" layoutX="763.0" layoutY="319.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="HEART-SEEKING BOW" textFill="#ef2525">
+                    <font>
+           		<Font name="Bell MT Bold" size="25.0" />
+          </font>
+      	  </Button>
+          <Button fx:id="button5" layoutX="120.0" layoutY="523.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="TWIN FISTS OF MALPHON" textFill="#ef2525">
+                    <font>
+           		<Font name="Bell MT Bold" size="25.0" />
+          </font>
+      	  </Button>
+          <Button fx:id="button6" layoutX="763.0" layoutY="523.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="400.0" text="ADAMANT RAIL" textFill="#ef2525">
+                    <font>
+           		<Font name="Bell MT Bold" size="25.0" />
+          </font>
+      	  </Button>
          </children>
       </AnchorPane>
    </children>
