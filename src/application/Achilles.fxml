@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="720.0" fitWidth="1280.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@..data/hades-08-06-2019-23-24-40-10.png" />
+            <Image url="@../data/hades-08-06-2019-23-24-40-10.png" />
          </image>
       </ImageView>
       <ImageView fx:id="charImage" fitHeight="720.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
