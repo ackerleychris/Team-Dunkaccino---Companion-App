@@ -1,7 +1,10 @@
 package application.controller;
+import java.io.IOException;
+
 import application.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 
 /*
@@ -44,14 +47,22 @@ public class MainController {
     }
 	
     @FXML
-    void CharacterPressed(ActionEvent event) {
+    void CharacterPressed(ActionEvent event) throws IOException {
+    	/*FXMLLoader loader = new FXMLLoader(getClass().getResource("Character.fxml"));
+    	CharacterController newController = new CharacterController();
+    	newController.initialize("src/data/characters/characters.csv");
+    	loader.setController(newController);*/
     	Main.set_pane(4);
     }
 
 
     @FXML
     void ItemsPressed(ActionEvent event) {
-    	//Main.set_pane(X) replace X when this is added to the stack 
+    	/*FXMLLoader loader = new FXMLLoader(getClass().getResource("Item.fxml"));
+    	ItemController newController = new CharacterController();
+    	newController.initialize("src/data/characters/items.csv");
+    	loader.setController(newController);*/
+    	Main.set_pane(10);
     }
     
     @FXML

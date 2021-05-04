@@ -11,8 +11,6 @@ import javafx.stage.Stage;
 import application.Main;
 
 /**
- * 
- * 
  * @author Zachary Bowman
  *
  */

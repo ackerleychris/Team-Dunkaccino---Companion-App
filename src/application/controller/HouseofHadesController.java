@@ -5,6 +5,15 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
+
+/**
+ * 
+ * 
+ * 
+ * @author Zachary Bowman raq506
+ *
+ */
+
 public class HouseofHadesController {
 
     @FXML

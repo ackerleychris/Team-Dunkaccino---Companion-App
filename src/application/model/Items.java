@@ -19,7 +19,7 @@ import java.util.*;
  */
 
 /**
- * @author David Kent & Christopher Ackerley
+ * @author David Kent with some edits from Christopher Ackerley
  *
  */
 
@@ -28,16 +28,12 @@ public class Items
 	private String name;
 	private String imageLocation;
 	private String description;
-	private String type;
-	private ArrayList<Items> Item;
 	
-	public Items(String name, String imageLocation, String description, String type)
+	public Items(List<String> asList)
 	{
-		this.name = name;
-		this.imageLocation = imageLocation;
-		this.description = description;
-		this.type = type;
-		Item = new ArrayList<Items>();
+		this.name = asList.get(0);
+		this.imageLocation = asList.get(1);
+		this.description = asList.get(2);
 	}
 	
 
@@ -52,78 +48,28 @@ public class Items
 		return this.name;
 	}
 	
-	/**
-	 * String name setter.
-	 * @author David Kent
-	 * @return nothing
-	 */
-	
 	public void setName(String name)
 	{
 		this.name = name;
 	}
-	
-	/**
-	 * String image location getter.
-	 * @author David Kent
-	 * @return location of image as string
-	 */
 	
 	public String getImageLocation()
 	{
 		return this.imageLocation;
 	}
 	
-	/**
-	 * String image location setter.
-	 * @author David Kent
-	 * @return nothing
-	 */
 	public void setImageLocation(String imageLocation)
 	{
 		this.imageLocation = imageLocation;
 	}
-	
-	/**
-	 * String description getter.
-	 * @author David Kent
-	 * @return description as string
-	 */
 	
 	public String getDescription()
 	{
 		return this.description;
 	}
 	
-	/**
-	 * String description setter.
-	 * @author David Kent
-	 * @return nothing
-	 */
 	public void setDescription(String description)
 	{
 		this.description = description;
 	}
-	
-	/**
-	 * String typer getter.
-	 * @author David Kent
-	 * @return type as string
-	 */
-	
-	public String getType()
-	{
-		return this.type;
-	}
-	
-	/**
-	 * String type setter
-	 * @author David Kent
-	 * @return nothing
-	 */
-	public void setType(String type)
-	{
-		this.type = type;
-	}
-	
 }
