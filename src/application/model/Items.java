@@ -19,7 +19,7 @@ import java.util.*;
  */
 
 /**
- * @author David Kent
+ * @author David Kent with some edits from Christopher Ackerley
  *
  */
 
@@ -28,16 +28,12 @@ public class Items
 	private String name;
 	private String imageLocation;
 	private String description;
-	private String type;
-	private ArrayList<Items> Item;
 	
-	public Items(String name, String imageLocation, String description, String type)
+	public Items(List<String> asList)
 	{
-		this.name = name;
-		this.imageLocation = imageLocation;
-		this.description = description;
-		this.type = type;
-		Item = new ArrayList<Items>();
+		this.name = asList.get(0);
+		this.imageLocation = asList.get(1);
+		this.description = asList.get(2);
 	}
 	
 
@@ -76,15 +72,4 @@ public class Items
 	{
 		this.description = description;
 	}
-	
-	public String getType()
-	{
-		return this.type;
-	}
-	
-	public void setType(String type)
-	{
-		this.type = type;
-	}
-	
 }

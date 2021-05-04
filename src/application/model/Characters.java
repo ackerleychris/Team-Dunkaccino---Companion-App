@@ -25,18 +25,12 @@ public class Characters
 	private String name;
 	private String imageLocation;
 	private String description;
-	private String type;
-	private ArrayList<Characters> Character;
 	
-	public Characters(String name, String imageLocation, String description, String type)
+	public Characters(List<String> asList)
 	{
-		this.name = name;
-		this.imageLocation = imageLocation;
-		this.description = description;
-		this.type = type;
-		Character = new ArrayList<Characters>();
-		
-		
+		this.name = asList.get(0);
+		this.imageLocation = asList.get(1);
+		this.description = asList.get(2);
 	}
 	
 	
@@ -62,20 +56,6 @@ public class Characters
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
-
-
-	public String getType() {
-		return type;
-	}
-
-
-
-	public void setType(String type) {
-		this.type = type;
-	}
-
-
 
 	public String getName()
 	{
