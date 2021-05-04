@@ -21,7 +21,10 @@ public class Main extends Application {
 	
 /**
  * 
- * @author Zachary Bowman & Christopher Ackerley & Andrew Mares & David Kent
+ * @author Zachary Bowman
+ * @author Christopher Ackerley
+ * @author Andrew Mares
+ * @author David Kent
  * 
  */
 	@Override
