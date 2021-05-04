@@ -8,9 +8,11 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.Pane;
 
 
+
 /*
- * author: David Kent
+ * author: David Kent keg229
  */
+
 
 
 public class EternalController 

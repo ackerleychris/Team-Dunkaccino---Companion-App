@@ -8,25 +8,24 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.Pane;
 
 
-
 /*
  * author: David Kent keg229
  */
 
 
-public class StygianController 
+public class ShieldOfChaosController
 {
 	 @FXML
 	    private Button BackButton; //BACK BUTTON
 	
 	 @FXML
-	    private TextArea StygianText;
+	    private TextArea ChaosText; //text box to be written to
 	    
 	 @FXML
 	 	private Pane BG;
 	 
 	 @FXML
 	    void BackPressed(ActionEvent event) {
-	    	Main.set_pane(9);
+	    	Main.set_pane(9); //returns back to the weapon screen
 	    }
 }
