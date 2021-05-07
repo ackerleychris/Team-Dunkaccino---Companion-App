@@ -117,7 +117,7 @@ public class CharacterController {
         charDescription.setText(characterList.get(i).getDescription());
         charName.setText(characterList.get(i).getName());
         */
-    	Main.set_pane(19);
+    	Main.set_pane(54);
     }
 
 }

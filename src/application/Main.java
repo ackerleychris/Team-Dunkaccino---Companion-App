@@ -64,7 +64,27 @@ public class Main extends Application {
 			Scenes.add(FXMLLoader.load(getClass().getResource("HeartSeekingBow.fxml"))); //bow is 32
 			Scenes.add(FXMLLoader.load(getClass().getResource("TwinFists.fxml"))); //twin fists is 33
 			Scenes.add(FXMLLoader.load(getClass().getResource("AdamantRail.fxml"))); //add rail is 34
-
+			Scenes.add(FXMLLoader.load(getClass().getResource("Alecto.fxml"))); //Alecto is 35
+			Scenes.add(FXMLLoader.load(getClass().getResource("Aphrodite.fxml"))); //Aphrodite is 36
+			Scenes.add(FXMLLoader.load(getClass().getResource("Ares.fxml"))); //ares is 37
+			Scenes.add(FXMLLoader.load(getClass().getResource("Artemis.fxml"))); //Artermis is 38
+			Scenes.add(FXMLLoader.load(getClass().getResource("Asterius.fxml"))); //Asterius is 39
+			Scenes.add(FXMLLoader.load(getClass().getResource("Demeter.fxml"))); //Demeter is 40
+			Scenes.add(FXMLLoader.load(getClass().getResource("Dinoysus.fxml"))); //Dinoysus is 41
+			Scenes.add(FXMLLoader.load(getClass().getResource("Dusa.fxml"))); //Dusa is 42
+			Scenes.add(FXMLLoader.load(getClass().getResource("Eurydice.fxml"))); //Eurydice is 43
+			Scenes.add(FXMLLoader.load(getClass().getResource("Hermes.fxml"))); //Hermes is 44
+			Scenes.add(FXMLLoader.load(getClass().getResource("Hypnos.fxml"))); //Hypnos is 45
+			Scenes.add(FXMLLoader.load(getClass().getResource("Megaera.fxml"))); //meg is 46
+			Scenes.add(FXMLLoader.load(getClass().getResource("Orpheus.fxml"))); //Orpheus is 47
+			Scenes.add(FXMLLoader.load(getClass().getResource("Patroclus.fxml"))); //Patroclus is 48
+			Scenes.add(FXMLLoader.load(getClass().getResource("Persephone.fxml"))); //Persephone is 49
+			Scenes.add(FXMLLoader.load(getClass().getResource("Poseidon.fxml"))); //Poseiodn is 50
+			Scenes.add(FXMLLoader.load(getClass().getResource("Sisyphus.fxml"))); //Sisyphus is 51
+			Scenes.add(FXMLLoader.load(getClass().getResource("Skelly.fxml"))); //Skelly is 52
+			Scenes.add(FXMLLoader.load(getClass().getResource("Theseus.fxml"))); //Theseus is 53
+			Scenes.add(FXMLLoader.load(getClass().getResource("Tisiphone.fxml"))); //Tisiphone is 54
+			
 			
 			root.getChildren().add(Scenes.get(0)); //Sets the Main Menu from Main.fxml
 			

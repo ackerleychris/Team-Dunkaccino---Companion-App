@@ -52,7 +52,7 @@ public class CharonController {
     
     @FXML
     void NextPressed(ActionEvent event) {
-    	Main.set_pane(4);
+    	Main.set_pane(35);
     }
     
     @FXML
