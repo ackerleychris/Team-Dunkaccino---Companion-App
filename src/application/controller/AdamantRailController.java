@@ -25,8 +25,12 @@ public class AdamantRailController
 	 @FXML
 	 	private Pane BG;
 	 
+	 /**
+	  * this function "BackPressed" takes the user back to the weapon select screen (weapons.fxml) when it is clicked, relating to the "BackButton"
+	  * @param ActionEvent event - occurs when the element is interacted with by the user on button press
+	  */
 	 @FXML
 	    void BackPressed(ActionEvent event) {
-	    	Main.set_pane(9); //returns back to the weapon screen
+	    	Main.set_pane(9); 
 	    }
 }

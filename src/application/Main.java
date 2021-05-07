@@ -21,8 +21,13 @@ public class Main extends Application {
 	
 /**
  * 
- * @author Zachary Bowman & Christopher Ackerley & Andrew Mares & David Kent
+ * @author Zachary Bowman
+ * @author Christopher Ackerley
+ * @author Andrew Mares
+ * @author David Kent
  * 
+ * start - an overrided previous declaration so that we may create our root as a background and an array called "Scenes" to be our panels put atop for viewing.
+ * @param Stage primaryStage - A setting for javafx to make a window on screen, primarystage being the name for our only stage.
  */
 	@Override
 	public void start(Stage primaryStage) {
@@ -103,6 +108,8 @@ public class Main extends Application {
  * 
  * 
  * @author Zachary Bowman
+ * set_pane exists to remove the current pane on screen and set a new one on top, using an integer i to decide on which pane.
+ * @param int i - an integer which we use to set the correct panel in the array onto the screen
  */
 	public static void set_pane(int i) {
 		root.getChildren().remove(Scenes.get(CurrentScene)); //Remove the existing scene from screen
