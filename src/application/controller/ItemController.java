@@ -52,76 +52,31 @@ public class ItemController {
     private Text itemName;
     
     
-	
-    /*
-    public void initialize(String newFileLocation) throws IOException
-    {
-    	
-    	this.itemList = new ArrayList<>();
-    	this.itemFileLocation = newFileLocation;
-    	try(BufferedReader br = new BufferedReader(new FileReader(newFileLocation)))
-    	{
-    		String bufferLine;
-    		while ((bufferLine = br.readLine()) != null)
-    		{
-    			String[] readLine = bufferLine.split(",");
-				Items item = new Items(Arrays.asList(readLine));
-				itemList.add(item);
-    		}
-    	}
-    	catch (IOException e)
-    	{
-    		e.printStackTrace();
-    	}
-    	
-    	File file = new File(itemList.get(i).getImageLocation());
-        Image image = new Image(file.toURI().toString());
-        charImage.setImage(image);
-        charDescription.setText(itemList.get(i).getDescription());
-        charName.setText(itemList.get(i).getName());
-    	
-    	
-    }
-    */
-    
+
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will return to the main menu pane (0)
+     */
     @FXML
     void BackPressed(ActionEvent event) {
     	Main.set_pane(0);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the next character in line (20)
+     */
     @FXML
     void NextPressed(ActionEvent event) {
-    	/*
-    	i++;
-    	if(i >= itemList.size())
-    	{
-    		this.i = 0;
-    	}
-  
-    	File file = new File(itemList.get(i).getImageLocation());
-        Image image = new Image(file.toURI().toString());
-        charImage.setImage(image);
-        charDescription.setText(itemList.get(i).getDescription());
-        charName.setText(itemList.get(i).getName());
-        */
     	Main.set_pane(20);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the previous character in line (28)
+     */
     @FXML
     void PreviousPressed(ActionEvent event) {
-    	/*
-    	i--;
-    	if(i < 0)
-    	{
-    		this.i = itemList.size() - 1;
-    	}
-  
-    	File file = new File(itemList.get(i).getImageLocation());
-        Image image = new Image(file.toURI().toString());
-        charImage.setImage(image);
-        charDescription.setText(itemList.get(i).getDescription());
-        charName.setText(itemList.get(i).getName());
-        */
     	Main.set_pane(28);
     }
 

@@ -53,11 +53,19 @@ public class AchillesController {
     	Main.set_pane(0);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the next character in line (15)
+     */
     @FXML
     void NextPressed(ActionEvent event) {
     	Main.set_pane(15);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the previous character in line (13)
+     */
     @FXML
     void PreviousPressed(ActionEvent event) {
     	Main.set_pane(13);

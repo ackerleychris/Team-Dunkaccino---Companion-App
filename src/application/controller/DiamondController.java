@@ -37,17 +37,28 @@ public class DiamondController {
     private Text itemName;
     	
 
-    
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will return to the main menu pane (0)
+     */
     @FXML
     void BackPressed(ActionEvent event) {
     	Main.set_pane(0);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the next character in line (27)
+     */
     @FXML
     void NextPressed(ActionEvent event) {
     	Main.set_pane(27);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the previous character in line (25)
+     */
     @FXML
     void PreviousPressed(ActionEvent event) {
     	

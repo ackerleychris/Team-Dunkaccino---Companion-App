@@ -44,17 +44,28 @@ public class ChaosController {
     private Text charName;
     	
     
-    
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will return to the main menu pane (0)
+     */
     @FXML
     void BackPressed(ActionEvent event) {
     	Main.set_pane(0);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the next character in line (17)
+     */
     @FXML
     void NextPressed(ActionEvent event) {
     	Main.set_pane(17);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the previous character in line (15)
+     */
     @FXML
     void PreviousPressed(ActionEvent event) {
     	Main.set_pane(15);

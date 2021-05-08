@@ -25,9 +25,6 @@ import application.model.Characters;
 
 public class CharacterController {
 
-	private ArrayList<Characters> characterList;
-	private String charFileLocation;
-	private int i = 0;
 	
 	@FXML
     private Button BackButton;
@@ -47,76 +44,30 @@ public class CharacterController {
     @FXML
     private Text charName;
     
-    
-	
-    /*
-    public void initialize(String newFileLocation) throws IOException
-    {
-    	this.characterList = new ArrayList<>();
-    	this.charFileLocation = newFileLocation;
-    	try(BufferedReader br = new BufferedReader(new FileReader(newFileLocation)))
-    	{
-    		String bufferLine;
-    		while ((bufferLine = br.readLine()) != null)
-    		{
-    			String[] readLine = bufferLine.split(",");
-				Characters character = new Characters(Arrays.asList(readLine));
-				characterList.add(character);
-    		}
-    	}
-    	catch (IOException e)
-    	{
-    		e.printStackTrace();
-    	}
-    	
-    	File file = new File(characterList.get(i).getImageLocation());
-        Image image = new Image(file.toURI().toString());
-        charImage.setImage(image);
-        charDescription.setText(characterList.get(i).getDescription());
-        charName.setText(characterList.get(i).getName());
-
-    	
-    }
-    */
-    
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will return to the main menu pane (0)
+     */
     @FXML
     void BackPressed(ActionEvent event) {
     	Main.set_pane(0);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the next character in line (11)
+     */
     @FXML
     void NextPressed(ActionEvent event) {
-    	/*
-    	i++;
-    	if(i >= characterList.size())
-    	{
-    		this.i = 0;
-    	}
-  
-    	File file = new File(characterList.get(i).getImageLocation());
-        Image image = new Image(file.toURI().toString());
-        charImage.setImage(image);
-        charDescription.setText(characterList.get(i).getDescription());
-        charName.setText(characterList.get(i).getName());
-        */
     	Main.set_pane(11);
     }
     
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will set the pane to the previous character in line (54)
+     */
     @FXML
     void PreviousPressed(ActionEvent event) {
-    	/*
-    	i--;
-    	if(i < 0)
-    	{
-    		this.i = characterList.size() - 1;
-    	}
-  
-    	File file = new File(characterList.get(i).getImageLocation());
-        Image image = new Image(file.toURI().toString());
-        charImage.setImage(image);
-        charDescription.setText(characterList.get(i).getDescription());
-        charName.setText(characterList.get(i).getName());
-        */
     	Main.set_pane(54);
     }
 
