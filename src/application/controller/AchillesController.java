@@ -44,7 +44,10 @@ public class AchillesController {
     private Text charName;
     	
     
-    
+    /**
+     * 
+     * @param ActionEvent event - on button press, this event will return to the main menu pane (0)
+     */
     @FXML
     void BackPressed(ActionEvent event) {
     	Main.set_pane(0);
